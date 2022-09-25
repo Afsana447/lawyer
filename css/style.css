@@ -273,9 +273,10 @@ a, a:hover{
 }
 .contact-section .contact-form .form-control:focus{
    
-    background: transparent;
-    border-bottom: 1px solid #4759a7;
-    box-shadow: 0 0 0 0 #4759a7;
+       background: transparent;
+       border: none;
+       border-bottom: 1px solid #4759a7;
+       box-shadow: 0 0 0 0 #4759a7;
 }
 
 .submit .btn-primary{
