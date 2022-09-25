@@ -263,15 +263,17 @@ a, a:hover{
 } 
 .contact-section .contact-form .form-control{
 	padding: 14px;
-	border-radius: 2px;
+	border-radius: 0px;
 	text-transform: uppercase;
 	background: transparent;
 	color: #fff;
-	border: 1px solid #4759a7;
+        border: none;
+	border-bottom: 1px solid #4759a7;
 	margin: 0px 0px 30px;
 }
 .contact-section .contact-form .form-control:focus{
-	background: transparent;
+   
+    background: transparent;
     border: 1px solid #4759a7;
     box-shadow: 0 0 0 0 #4759a7;
 }
@@ -284,9 +286,8 @@ a, a:hover{
 	border-radius: 2px;
 	letter-spacing: 1px;
 	color: #fff;
-	background: #f2622c; 
-	border: none;     
-	border-bottom: 1px solid #f2622c;
+	background: #f2622c; 	     
+	border: 1px solid #f2622c;
 	text-transform: uppercase;
 	text-transform: 1s;
 }
