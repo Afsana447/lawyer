@@ -274,7 +274,7 @@ a, a:hover{
 .contact-section .contact-form .form-control:focus{
    
     background: transparent;
-    border: 1px solid #4759a7;
+    border-bottom: 1px solid #4759a7;
     box-shadow: 0 0 0 0 #4759a7;
 }
 
